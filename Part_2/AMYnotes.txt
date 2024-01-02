@@ -1,0 +1,91 @@
+ 
+ Error messages with sections 5.00P
+and main
+ 
+ (env) gold@APACs-MacBook-Air Projects % /Users/gold/Projects/Python_SQL/env/bin/python /Users/go
+ld/Projects/Assignments/Assignment1/restart-q4-2023-assignment-amy/Part_2/5.OOP.py
+Traceback (most recent call last):
+  File "/Users/gold/Projects/Assignments/Assignment1/restart-q4-2023-assignment-amy/Part_2/5.OOP.py", line 172, in <module>
+    main()
+  File "/Users/gold/Projects/Assignments/Assignment1/restart-q4-2023-assignment-amy/Part_2/5.OOP.py", line 112, in main
+    employee1 = Employee("ADAMS", "E7876", 50000, "ACCOUNTING")
+                ^^^^^^^^
+UnboundLocalError: cannot access local variable 'Employee' where it is not associated with a value
+(env) gold@APACs-MacBook-Air Projects % /Users/gold/Projects/Python_SQL/env/bin/python /Users/go
+ld/Projects/Assignments/Assignment1/restart-q4-2023-assignment-amy/Part_2/5.OOP.py
+Traceback (most recent call last):
+  File "/Users/gold/Projects/Assignments/Assignment1/restart-q4-2023-assignment-amy/Part_2/5.OOP.py", line 172, in <module>
+    main()
+  File "/Users/gold/Projects/Assignments/Assignment1/restart-q4-2023-assignment-amy/Part_2/5.OOP.py", line 112, in main
+    employee1 = Employee("ADAMS", "E7876", 50000, "ACCOUNTING")
+                ^^^^^^^^
+UnboundLocalError: cannot access local variable 'Employee' where it is not associated with a value
+(env) gold@APACs-MacBook-Air Projects % 
+
+
+
+I need to define and give the Python instructions to read the a-e and print it out 
+   I need to give it a function and a compute? 
+   Then the program loops back (due to indentaion) when it sees the print command
+   at the end of the code block and checks the next string in the list
+   this cycle will repeate until Python has worked through a - e
+   then it will go to the next indent line (out)
+   and the first part of the task will be completed
+   
+   in order to complete the next objective,
+   one could use negative one and insert commands
+
+# Print out a pattern like this programmatically with n
+# n = the number of star equivalent to how wide the wing is
+# there is 1 space in between the * on each line
+# eg. in this case n = 4
+#
+# *
+# * *
+# * * *
+# * * * *
+# * * * * *
+# * * * *
+# * * *
+# * *
+# *
+#
+# eg. in this case n = 1
+# *
+# * *
+# *
+def print_pattern(n: int):
+    # ========================================================================
+    # My code uses 1, 4 and 10 rows of * to get the output. If I have time I need to try again using nesting
+    for i in range(1, n + 1):  # first half
+        print("* " * i)
+    for i in range(n - 1, 0, -1):  # second half
+        print("* " * i)
+    n = 1
+    if n == 1:
+        for i in range(1, n + 1):  # first half
+            print("* * ")
+        #for i in range(1, n + 2):
+            #print("* ")
+        for i in range(n - 1, 0, -1):  # second half
+            print("* * ")
+        for i in range(n, n +1 ):
+            print("* ")
+    else:
+        for i in range(1, n + 1):  # first half
+            print("* " * i)
+        for i in range(n - 1, 0, -1):  # second half
+            print("* " * i)
+
+    # ========================================================================
+    pass
+
+
+def main():
+    print_pattern(1)
+    print_pattern(4)
+    print_pattern(10)
+
+
+if __name__ == "__main__":
+    main()

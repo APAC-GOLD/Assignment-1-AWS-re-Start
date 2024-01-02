@@ -1,0 +1,25 @@
+- Part 1 (24/25 marks)
+  - Part 1.1. Network (11/12 marks) - Question 3: The explanation is somewhat vague because should showing the primary purpose is to route packets between different networks.
+  - Part 1.2. Git \& software development (6/6 marks)
+  - Part 1.3. Cryptography (7/7 marks)
+- Part 2 (23/25 marks)
+  - Part 2.1. List (3/3 marks)
+  - Part 2.2. Dictionaries (3/3 marks)
+  - Part 2.3. Flow control (4/4 marks)
+  - Part 2.4. File handling (2/4 marks) - Dont have a line number in output file
+  - Part 2.5. OOP (7/7 marks)
+  - Part 2.6. Module (4/4 marks)
+- Part 3 (31/30 marks)
+  - Part 3.1. POST api (8/8 marks)
+  - Part 3.2. GET all messages api (2/2 marks)
+  - Part 3.3. GET single messages api, given a message\_key (3/3 marks)
+  - Part 3.4. PATCH single messages api, give message\_key and new\_message (4/4 marks)
+  - Part 3.5. DELETE single message given message\_key (3/3 marks)
+  - Part 3.6. Unit testing (11/10 marks) *+1 bonus* for covering 422, 404 on POST & GET, DELETE message (but missing 404 on GET ALL, PATCH message)
+- Part 4 (20/20 marks)
+  - Part 4.1. POST /owners/ API (3/3 marks)
+  - Part 4.2. GET /owners-full-details/{owner\_id} (3/3 marks)
+  - Part 4.3. POST /cars/ API (2/3 marks) - not checking if owner id exists
+  - Part 4.4. GET /cars-full-details/{car\_id} API (3/3 marks)
+  - Part 4.5. PATCH /cars/{car\_id} API (3/3 marks)
+  - Part 4.6. Unit testing (6/5 marks) *+1 bonus* - even though no cover 422, 404 test case but student did trying to cover some lower level test cases
