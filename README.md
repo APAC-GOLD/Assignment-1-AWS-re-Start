@@ -1,4 +1,8 @@
-# Assignment1-AWS-Certified-Cloud-Practitioner
+# Assignment1
+## Amazon Web Services, Level 5
+### Unitec Institute of Technology
+AWS re/Start, October 2023 - February 2024
+
 - [Rules:](#rules)
 - [Part 1 (25 marks total)](#part-1-25-marks-total)
   - [Part 1.1. Network (12/25 marks)](#part-11-network-1225-marks)
